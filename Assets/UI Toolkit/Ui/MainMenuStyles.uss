@@ -1,0 +1,59 @@
+:root {
+}
+
+.text {
+    -unity-font-definition: url("project://database/Assets/UI%20Toolkit/Fonts/HororDramaDemoRegular.ttf?fileID=12800000&guid=8d3f670fd917c6940a01b85fd45fd531&type=3#HororDramaDemoRegular");
+    color: rgb(0, 255, 0);
+}
+
+.button {
+    width: 600px;
+    background-color: rgba(128, 128, 128, 0.14);
+    -unity-text-align: middle-center;
+    right: auto;
+    height: 80px;
+    font-size: 25px;
+    -unity-font-style: bold;
+    align-self: flex-start;
+    justify-content: flex-start;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-left-color: rgb(128, 128, 128);
+    border-right-color: rgb(128, 128, 128);
+    border-top-color: rgb(128, 128, 128);
+    border-bottom-color: rgb(128, 128, 128);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    -unity-slice-type: sliced;
+    background-position-y: bottom 0;
+    background-position-x: center;
+    -unity-background-scale-mode: scale-to-fit;
+    align-items: flex-start;
+    visibility: visible;
+    color: rgb(128, 128, 128);
+    overflow: visible;
+}
+
+.button:hover {
+    scale: 1.2 1.2;
+    translate: 0 -10px;
+}
+
+.quit-button {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
